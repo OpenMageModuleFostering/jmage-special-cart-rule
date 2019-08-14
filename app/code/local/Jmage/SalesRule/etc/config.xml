@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jmage_SalesRule>
+            <version>1.0.0</version>
+        </Jmage_SalesRule>
+	</modules>
+	<global>	
+	    <blocks>
+				<adminhtml>
+					<rewrite>					
+		<promo_quote_edit_tab_actions>Jmage_SalesRule_Block_Promo_Quote_Edit_Tab_Actions</promo_quote_edit_tab_actions>
+					</rewrite>
+				</adminhtml>
+		</blocks>
+		<models>
+				<salesrule>
+					<rewrite>
+						<rule>Jmage_SalesRule_Model_Rule</rule>
+						<validator>Jmage_SalesRule_Model_Validator</validator>
+					</rewrite>
+				</salesrule>
+		</models>
+	</global>
+</config>

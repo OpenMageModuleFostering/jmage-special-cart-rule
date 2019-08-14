@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jmage_SalesRule>
+            <active>true</active>
+            <codePool>local</codePool>
+			<depends>
+                <Mage_Sales/>    
+            </depends>
+			<!-- if there any other module overriding the same class (Mage_SalesRule_Model_Validator), then mention the module name in the the depends tag -->
+        </Jmage_SalesRule>
+    </modules>
+</config>

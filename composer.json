@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/jmage-special-cart-rule",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "This module will allow you to set discount on high and low price item in cart.",
+    "authors": [
+    {
+        "name": "Jickson Johnson Koottala",
+        "email": "jicksonkoottala@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

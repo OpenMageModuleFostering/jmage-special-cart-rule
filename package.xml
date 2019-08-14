@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>jmage-special-cart-rule</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This module will allow you to set discount on high and low price item in cart.</summary>
+    <description>Jmage SalesRule extension is a extended version of Magento Shopping Cart Module. Using this module we can able to set discount price on High and Low priced item in shopping cart. &#xD;
+This works same like the default shopping cart rule. There will be two extra option in the shopping cart rule action settings. We only need to choose the appropriate one and set the discount amount. This module will support coupon code and other conditions and combinations within the shopping cart rule settings.</description>
+    <notes>First Release.</notes>
+    <authors><author><name>Jickson Johnson Koottala</name><user>jicksonkoottala</user><email>jicksonkoottala@gmail.com</email></author></authors>
+    <date>2015-11-08</date>
+    <time>18:19:58</time>
+    <contents><target name="magelocal"><dir name="Jmage"><dir name="SalesRule"><dir name="Block"><dir name="Promo"><dir name="Quote"><dir name="Edit"><dir name="Tab"><file name="Actions.php" hash="26eb34fbc36072a0c263cf763114d1bc"/><file name="Actions.php" hash="26eb34fbc36072a0c263cf763114d1bc"/><file name="Actions.php" hash="26eb34fbc36072a0c263cf763114d1bc"/><file name="Actions.php" hash="26eb34fbc36072a0c263cf763114d1bc"/><file name="Actions.php" hash="26eb34fbc36072a0c263cf763114d1bc"/><file name="Actions.php" hash="26eb34fbc36072a0c263cf763114d1bc"/><file name="Actions.php" hash="26eb34fbc36072a0c263cf763114d1bc"/><file name="Actions.php" hash="26eb34fbc36072a0c263cf763114d1bc"/></dir></dir></dir></dir></dir><dir name="Model"><file name="Rule.php" hash="a8461dae74bb184e49915e79d364e966"/><file name="Validator.php" hash="383993d1cffda2a0e378b30a532f54a9"/><file name="Rule.php" hash="a8461dae74bb184e49915e79d364e966"/><file name="Validator.php" hash="383993d1cffda2a0e378b30a532f54a9"/><file name="Rule.php" hash="a8461dae74bb184e49915e79d364e966"/><file name="Validator.php" hash="383993d1cffda2a0e378b30a532f54a9"/><file name="Rule.php" hash="a8461dae74bb184e49915e79d364e966"/><file name="Validator.php" hash="383993d1cffda2a0e378b30a532f54a9"/></dir><dir name="etc"><file name="config.xml" hash="66338ee5dd686819c94f6052f9534d0f"/><file name="config.xml" hash="66338ee5dd686819c94f6052f9534d0f"/><file name="config.xml" hash="66338ee5dd686819c94f6052f9534d0f"/><file name="config.xml" hash="66338ee5dd686819c94f6052f9534d0f"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Jmage_SalesRule.xml" hash="21b5b44edc20e617cbac94ea76a08cb2"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Module</name><channel>community</channel><min>1.8</min><max>1.9</max></package></required></dependencies>
+</package>
